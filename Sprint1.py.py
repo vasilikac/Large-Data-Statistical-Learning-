@@ -245,7 +245,7 @@ FinancialDataGenerator.generate_stock_prices = generate_stock_prices
 print("🧪 Testing stock price generation with 5 symbols...")
 test_stocks = generator.generate_stock_prices(
     symbols=['MSFT', 'PG', 'JNJ','V',"COST"], 
-    start_date='2024-01-01', 
+    start_date='2020-01-01', 
     end_date='2024-01-31'
 )
 
@@ -397,7 +397,7 @@ FinancialDataGenerator.generate_crypto_prices = generate_crypto_prices
 print("🧪 Testing crypto price generation with BTC and ETH...")
 test_crypto = generator.generate_crypto_prices(
     symbols=['BTC', 'ETH'],
-    start_date='2024-01-01',
+    start_date='2020-01-01',
     end_date='2024-01-31'  # One week for testing
 )
 
